@@ -31,3 +31,14 @@
     border: #ccc 1px solid;
     color: #ccc;
 }
+
+@media screen and (max-width:768px) {
+    .content{
+     display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    flex-shrink: inherit;
+    padding: 10px;
+    row-gap: 2rem;
+    }
+}
